@@ -34,15 +34,16 @@ class Graph_adj_Matrix():
         
         for rowIndex, element in enumerate(self.vertices):
             for columnIndex, ele in enumerate(self.vertices):
-                if [element, ele] in self.edges or ([ele, element] in self.edges):
+                if [element, ele] in self.edges or ([ele, element] in self.edges): #Try reducing time complexity here
                     self.matrix[rowIndex][columnIndex] = 1
                     
     def print_graph_matrix(self):
         #print(self.matrix)
         for row in range(len(self.vertices)):
+            print('[', end=" ")
             for col in range(len(self.vertices)):
                 print(self.matrix[row][col], end=" ")
-            print('\n')
+            print(']\n')
             
 
 if __name__ == "__main__":
