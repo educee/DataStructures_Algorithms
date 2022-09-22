@@ -1,0 +1,9 @@
+Linked Lists, Essentials ,Intuitions, Patterns
+
+1) Holds Elements in order but in Non Contigous Fashion
+2) Each Element Consists of Node containing reference to element and reference to neighbour nodes to form list
+3) Cannot be accessed through numeric indexes 
+4) Singly Linked Lists
+5) Doubly Linked Lists
+6) Circular Linkec Lists
+7) Implement stack, Queues, circular Queues using linked list
