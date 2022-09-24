@@ -38,6 +38,7 @@ def checkDuplicate_hashset(arr):
 
 #Using set data strucuture, as set data structure contains NO duplicats -- if array contains duplicate, 
 # set stores only one element , therefore array length changes,  compare len of arr and set to verify
+# O(n) time and O(n) space(worst case) as we use set to store non duplicates
 
 def checkDuplicate_usingSet(arr):
     return len(arr) != len(set(arr))
